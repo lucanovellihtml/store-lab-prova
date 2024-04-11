@@ -11,12 +11,17 @@ header {
 
 /* PRIMO SECTION */
 .contenitore-sections-header {
-    width: 2000px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-header-primo {
+    width: 1000px;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .contenitore-header-logo,
@@ -34,13 +39,13 @@ header {
 }
 
 .contenitore-header-social .fa {
-    font-size: 40px;
-    width: 80px;
+    font-size: 20px;
+    width: 50px;
     color: white;
 }
 
 .contenitore-header-logo img {
-    width: 700px;
+    width: 300px;
     height: auto;
 }
 
@@ -49,23 +54,31 @@ header {
 }
 
 .contenitore-header-search .material-icons {
-    font-size: 40px;
+    font-size: 20px;
     color: white;
 }
 
 /* SECONDO SECTION */
-.contenitore-header-menu {
+.section-header-secondo {
+    display: flex;
     width: 100%;
+}
+
+.contenitore-header-menu {
+    width: 100%
 }
 
 .contenitore-header-menu ul {
     list-style-type: none;
     color: white;
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     display: flex;
-    justify-content: space-between;
+}
+
+.contenitore-header-menu li {
+    width: 100%;
 }
 
 .contenitore-header-menu li:hover {
