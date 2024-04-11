@@ -1,3 +1,53 @@
 body {
     background-image: url(/img/FinalBackground.jpg);
 }
+
+/* ---- HEADER ---- */
+header {
+    justify-content: center;
+    display: flex;
+    margin: 90px auto 10px auto;
+}
+
+.contenitore-sections-header {
+    width: 2000px;
+}
+
+.section-header-primo {
+    display: flex;
+    align-items: center;
+}
+
+.contenitore-header-logo,
+.contenitore-header-social,
+.contenitore-header-search {
+    width: 100%;
+}
+
+.contenitore-header-social {
+    text-align: left;
+}
+
+.contenitore-header-social a {
+    text-decoration: none;
+}
+
+.contenitore-header-social .fa {
+    font-size: 50px;
+    width: 80px;
+    color: white;
+}
+
+.contenitore-header-logo img {
+    width: 700px;
+    height: auto;
+}
+
+.contenitore-header-search {
+    text-align: right;
+}
+
+.contenitore-header-search .material-icons {
+    font-size: 50px;
+    color: white;
+}
