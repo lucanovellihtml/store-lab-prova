@@ -2,13 +2,14 @@ body {
     background-image: url(/img/FinalBackground.jpg);
 }
 
-/* ---- HEADER ---- */
+/* ------------- HEADER ------------- */
 header {
     justify-content: center;
     display: flex;
     margin: 90px auto 10px auto;
 }
 
+/* PRIMO SECTION */
 .contenitore-sections-header {
     width: 2000px;
 }
@@ -33,7 +34,7 @@ header {
 }
 
 .contenitore-header-social .fa {
-    font-size: 50px;
+    font-size: 40px;
     width: 80px;
     color: white;
 }
@@ -48,6 +49,25 @@ header {
 }
 
 .contenitore-header-search .material-icons {
-    font-size: 50px;
+    font-size: 40px;
     color: white;
+}
+
+/* SECONDO SECTION */
+.contenitore-header-menu {
+    width: 100%;
+}
+
+.contenitore-header-menu ul {
+    list-style-type: none;
+    color: white;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenitore-header-menu li:hover {
+    color: aquamarine;
 }
